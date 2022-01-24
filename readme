@@ -1,0 +1,4 @@
+In this project, I fork the ethereum mainnet in real time using ganache and access the Dai contract, 
+Then, access the account on mainnet having the most no. of dai, and transfer all the Dai from his account to a dummy account.
+All this happens on a local mirror of the mainnet, that we have created using ganache.
+
