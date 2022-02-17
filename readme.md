@@ -10,8 +10,8 @@ All this happens on a local mirror of the mainnet, that we have created using ga
 0. Find the account holding most DAIs on mainnet using Ethplorer.io, lets call it daiHolder.
 1. Clone Ethereum Mainnet Using Ganache CLI and Infura, Unlock daiHolder's account with Ganache, using below code:
 
-    npm install -g ganache
-    ganache --fork -u "0xd9e..."
+        npm install -g ganache
+        ganache --fork -u "0xd9e..."
 
 2. Access the DAI smart contract using its Address and ABI.
 3. Send the total balance of daiHolder to our account using Transfer function from ERC20.
